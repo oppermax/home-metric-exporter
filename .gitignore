@@ -1,0 +1,4 @@
+bin/
+.idea/
+mappings/*.json
+!mappings/*-example.json

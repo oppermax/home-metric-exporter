@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  home-metric-exporter:
+    image: oppermax/home-metric-exporter:latest
+    ports:
+      - 7979:7979
+    container_name: home-metric-exporter
+    environment:
+      HOST: foo
+      DECONZ_API_KEY: bar
+      ID_TO_ROOM: ""
+      SHELLY_USER: ""
+      SHELLY_PASS: ""
+    volumes:
+      - mappings/:mappings/
+    restart: always

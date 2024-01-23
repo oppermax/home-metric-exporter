@@ -1,0 +1,13 @@
+{
+  "shelly_mappings" : [{
+    "device_id":"shellyht-123",
+    "device_type":"shellyht",
+    "room":"kitchen"
+  }, {
+    "device_id":"shellyplug-43",
+    "device_type":"shellyplug",
+    "ip":"192.168.178.22",
+    "room":"living room",
+    "device_name":"my switch"
+  }]
+}
