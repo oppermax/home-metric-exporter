@@ -1,4 +1,4 @@
-# home-measurements-exporter
+# home-metric-exporter
 
 This exporter collects sensor data from Deconz and Shelly devices and exposes them as Prometheus metrics.
 
